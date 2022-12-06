@@ -1,0 +1,14 @@
+Z:\11.C\Asztali\2022.12.06\bin\Debug\netcoreapp3.1\2022.12.06.exe
+Z:\11.C\Asztali\2022.12.06\bin\Debug\netcoreapp3.1\2022.12.06.deps.json
+Z:\11.C\Asztali\2022.12.06\bin\Debug\netcoreapp3.1\2022.12.06.runtimeconfig.json
+Z:\11.C\Asztali\2022.12.06\bin\Debug\netcoreapp3.1\2022.12.06.runtimeconfig.dev.json
+Z:\11.C\Asztali\2022.12.06\bin\Debug\netcoreapp3.1\2022.12.06.dll
+Z:\11.C\Asztali\2022.12.06\bin\Debug\netcoreapp3.1\2022.12.06.pdb
+Z:\11.C\Asztali\2022.12.06\obj\Debug\netcoreapp3.1\2022.12.06.csproj.AssemblyReference.cache
+Z:\11.C\Asztali\2022.12.06\obj\Debug\netcoreapp3.1\2022.12.06.GeneratedMSBuildEditorConfig.editorconfig
+Z:\11.C\Asztali\2022.12.06\obj\Debug\netcoreapp3.1\2022.12.06.AssemblyInfoInputs.cache
+Z:\11.C\Asztali\2022.12.06\obj\Debug\netcoreapp3.1\2022.12.06.AssemblyInfo.cs
+Z:\11.C\Asztali\2022.12.06\obj\Debug\netcoreapp3.1\2022.12.06.csproj.CoreCompileInputs.cache
+Z:\11.C\Asztali\2022.12.06\obj\Debug\netcoreapp3.1\2022.12.06.dll
+Z:\11.C\Asztali\2022.12.06\obj\Debug\netcoreapp3.1\2022.12.06.pdb
+Z:\11.C\Asztali\2022.12.06\obj\Debug\netcoreapp3.1\2022.12.06.genruntimeconfig.cache
