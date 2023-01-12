@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlapelemek</title>
+</head>
+<body>
+    <script>
+        function mailcheck() {
+		var reg = /^[0-9a-z\.-]+@([0-9a-z-]+\.)+[a-z]{2,4}$/i;
+		var s = document.getElementById('email').value;
+		var reg1 = /^[0-9a-z\.-]{6}/;
+		var s1= document.getElementById('nev').value;
+		alert(reg1.test(s1)&& reg.test(s));
+        }
+    </script>
+    <fieldset>
+        <legend>Konferencia információk</legend>
+        <form>
+            <hr>
+            <p>Felhasználói adatok:</p>
+            <ul>
+                <li>Email: <input type="email" name="email" id="email"></li>
+                <li>Név:   <input type="text" name="nev" id="nev"></li>
+            </ul>
+            <p>Kér ebédet 16-án?</p>
+            <ul>
+                <li> <input type="radio" name="igen" id="igen"> igen</li>
+                <li> <input type="radio" name="nem" id="nem"> nem</li>
+            </ul>
+
+            <p>Kér ebédet 17-én?</p>
+            <ul>
+                <li> <input type="radio" name="igen2" id="igen2"> igen</li>
+                <li> <input type="radio" name="nem2" id="nem2"> nem</li>
+            </ul>
+            <hr>
+            <p>Milyen formátumban kéri az előadások anyagát?</p>
+            <ul>
+                <li><input type="checkbox" name="nyomtatott" id="nyomtatott"> nyomtatott</li>
+                <li><input type="checkbox" name="PDF" id="PDF">PDF (Adobe Portable Document Format)</li>
+                <li><input type="checkbox" name="PPT" id="PPT">PPT (Microsoft PowerPoint)</li>
+                <li><input type="checkbox" name="ODP" id="ODP">ODP (OpenOffice.org Impress)</li>
+                <li><input type="checkbox" name="SWF" id="SWF">SWF (Macromedia FlashPaper 2)</li>
+                <li><input type="checkbox" name="XPS" id="XPS">XPS (Microsoft XML Paper Specification)</li>
+            </ul>
+            <hr>
+
+            <input type="submit" onclick="mailcheck();" value="Adatok küldése">
+            <input type="reset" value="Adatok törlése">
+        </form>         
+    </fieldset>
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Ürlapelemek</title>
+
+	<script type="text/javascript" src="urlap3.js"></script>
+</head>
+
+<body>
+<form>"
+'
+		
+					
+				
+				<fieldset>
+				<legend>Konferencia információk</legend>
+					
+					
+					
+					<hr>
+					
+		<div class="field">
+		<span class="label">Kér ebédet 16-án?</span>
+		<ul class="radio">
+				<li><input type="radio" name="lunch16" id="lunch16_y" value="igen" class="required" /><label for="lunch16_y">igen</label></li>
+				<li><input type="radio" name="lunch16" id="lunch16_n" value="nem"  class="required" /><label for="lunch16_n">nem</label></li>
+		</ul>
+						<div class="clear"></div>
+					</div>
+					
+					<div class="field">
+						<span class="label">Kér ebédet 17-én?</span>
+						<ul class="radio">
+					    	<li><input type="radio" name="lunch17" id="lunch17_y" value="igen" class="required" /><label for="lunch17_y">igen</label></li>
+					    	<li><input type="radio" name="lunch17" id="lunch17_n" value="nem"  class="required" /><label for="lunch17_n">nem</label></li>
+						</ul>
+						<div class="clear"></div>
+					</div>
+					
+					<hr />
+					
+					<div class="field">
+						<span class="label">Milyen formátumban kéri az előadások anyagát?</span>
+						<ul class="checkbox">
+					    	<li><input type="checkbox" name="frm_prn" id="frm_prn" value="prn" /><label for="frm_prn">nyomtatott</label></li>
+					    	<li><input type="checkbox" name="frm_pdf" id="frm_pdf" value="pdf" /><label for="frm_pdf">PDF (Adobe Portable Document Format)</label></li>
+					    	<li><input type="checkbox" name="frm_ppt" id="frm_ppt" value="ppt" /><label for="frm_ppt">PPT (Microsoft PowerPoint)</label></li>
+					    	<li><input type="checkbox" name="frm_odp" id="frm_odp" value="odp" /><label for="frm_odp">ODP (OpenOffice.org Impress)</label></li>
+					    	<li><input type="checkbox" name="frm_swf" id="frm_swf" value="swf" /><label for="frm_swf">SWF (Macromedia FlashPaper 2)</label></li>
+					    	<li><input type="checkbox" name="frm_xps" id="frm_xps" value="xps" /><label for="frm_xps">XPS (Microsoft XML Paper Specification)</label></li>
+						</ul>
+						<div class="clear"></div>
+					</div>
+					
+					<hr />
+					
+					
+				
+				
+				
+				
+				
+					<input type="button" onclick="mailcheck();" value="Adatok küldése" />   <!--button helyett submit-->
+					<input type="reset" value="Adatok törlése" />
+				
+			</form>
+</body>

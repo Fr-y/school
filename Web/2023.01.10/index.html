@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            width: 70%;
+            margin: 0 auto;
+        }
+    </style>
+    <title>Oldal</title>
+</head>
+<body>
+    <script language='JavaScript'>
+
+        function feladat1(){
+            document.write("<h3> Számok 1-től 20-ig: </h3>")
+            for( i=1; i<=20; i=i+1 )
+            {
+                document.write( i, '  ' )
+            }
+        }
+
+        function feladat2(){
+            document.write("<h3> Páros számok 2-től 30-ig: </h3>")
+            for( i=2; i<=30; i=i+2 )
+            {
+                document.write( i, '  ' )
+            }
+        }
+
+        function feladat3(){
+            document.write("<h3> Számok 30-től 100-ig, hetesével: </h3>")
+            for( i=30; i<=100; i=i+7 )
+            {
+                document.write( i, '  ' )
+            }
+        }
+
+        function feladat4(){
+            document.write("<h3> Számok 112-től 2-ig, tizenegyesével lefelé: </h3>")
+            for( i=112; i>=2; i=i-11 )
+            {
+                document.write( i, '  ' )
+            }
+        }
+
+        function feladat5(){
+            document.write("<h3> Számok -90-től 90-ig, tizenötösével: </h3>")
+            for( i=-90; i<=90; i=i+15 )
+            {
+                document.write( i, '  ' )
+            }
+        }
+
+        function feladat6(){
+            document.write("<h3>  Azok a kétjegyű számok, amelyek számjegyeinek összege 10: </h3>")
+            for( i=10; i<=100; i=i+1 )
+            {
+                document.write( i, '  ' )
+            }
+        }
+
+        function feladat7(){
+            document.write("<h3> Pozitív egész számpárok, ahol a két szám összege 18: </h3>")
+            for( i=1; i<=100; i=i+1 )
+            {
+                for( j=1; j<=100; j=j+1 )
+            {
+                if (i + j == 18){
+                document.write(`${i}-${j}  `)
+                }
+            }}
+        }
+
+        function feladat8(){
+            document.write("<h3>  A 8-as szorzótábla: </h3>")
+            for( i=1; i<=10; i=i+1 )
+            {
+                document.write(`${i} * 8 = ${i*8} <br>`)
+            }
+        }
+
+        function feladat9(){
+            document.write("<h3>  Az első 15 pozitív egész szám négyzete: </h3>")
+            for( i=1; i<=15; i=i+1 )
+            {
+                document.write(`${i*i} `)
+            }
+        }
+
+        function feladat10(){
+            document.write("<h3>  A elkövetkezendő nem szökőévek 2041-ig: </h3>")
+            for( i=2020; i<=2041; i=i+1 )
+            {
+                if( i % 4 !== 0 ){
+                document.write(`${i} `)
+            }}
+        }
+
+        function feladat11(){
+            document.write("<h3>  A  144  összes osztója: </h3>")
+            for( i=1; i<=144; i=i+1 )
+            {
+                if( 144 % i == 0 ){
+                document.write(`${i} `)
+            }}
+        }
+
+        function feladat12(){
+            document.write("<h3>  A 2 hatványai: </h3>")
+            for( i=1; i<=20; i=i+1 )
+            {
+                document.write(`${2 ** i} `)
+            }
+        }
+
+        function feladat13(){
+            document.write("<h3>  Mindig 1-gyel nagyobb különbség: </h3>")
+            k = 1
+            for( i=0; i<=24; i=i+1 )
+            {
+                document.write(`${k + i} `)
+                k = k + i
+            }
+        }
+
+        function feladat14(){
+            document.write("<h3>  Az előző két szám összege: </h3>")
+            elsoe = 1
+            masodike = 2
+            for( i=1; i<=24; i=i+1 )
+            {
+                document.write(`${elsoe + masodike} `)
+                elsoe = masodike
+                masodike = elsoe + masodike
+            }
+        }
+
+        function feladat15(){
+            document.write("<h3>  9 időpont óránként, reggel negyed 9-től: </h3>")
+            for( i=8; i<=16; i=i+1 )
+            {
+                document.write(`${i}:15 `)
+            }
+        }
+
+        function feladat16(){
+            document.write("<h3>   Időpontok 20 percenként, délelőtt: </h3>")
+            for( i=8; i<=11; i=i+1 )
+            {
+                for( j=0; j<=5; j=j+2 )
+                {
+                    document.write(`${i}:${j}0 `)
+                }
+            }
+        }
+
+        // function feladat17(){
+        //     document.write("<h3>   Napi menetrend, 50 percenként induló járatokkal: </h3>")
+        //     for( i=8; i<=18; i=i+1 )
+        //     {
+        //         maradek = 0
+        //         for( j=0; j=5; j=j+5 )
+        //         {
+        //             document.write(`${i}:${j-maradek}0 <br>`)
+        //             if (j = 5){
+        //             maradek = 1}
+        //         }
+                
+        //     }
+        // }
+
+        // feladat1()
+        // feladat2()
+        // feladat3()
+        // feladat4()
+        // feladat5()
+        // feladat6()
+        // feladat7()
+        // feladat8()
+        // feladat9()
+        // feladat10()
+        // feladat11()
+        // feladat12()
+        feladat13()
+        feladat14()
+        // feladat15()
+        // feladat16()
+        feladat17()
+        feladat18()
+        feladat19()
+        feladat20()
+        feladat21()
+        feladat22()
+        feladat23()
+        feladat24()
+        feladat25()
+        feladat26()
+        feladat27()
+        feladat28()
+        feladat29()
+        feladat30()
+
+
+                                             
+	</script>
+</body>
+</html>

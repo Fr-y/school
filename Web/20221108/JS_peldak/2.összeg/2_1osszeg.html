@@ -1,0 +1,23 @@
+<html>
+<head>
+<SCRIPT LANGUAGE="JavaScript">
+  function osszeg(){
+  var x = document.urlap1.szam1.value*1;
+  var y = document.urlap1.szam2.value*1;
+  var eredmeny = x + y;
+  alert("Az összeg: "+eredmeny);
+  }
+</SCRIPT>
+</head>
+
+<body>
+<FORM NAME="urlap1">
+Egyik szám:<BR>
+<INPUT TYPE="text" NAME="szam1"><BR>
+Másik szám:<BR>
+<INPUT TYPE="text" NAME="szam2"><BR>
+<INPUT TYPE="button" VALUE="Összead" onClick="osszeg()">
+
+</body>
+
+</html>

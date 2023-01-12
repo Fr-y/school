@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <table>
+        <script> 
+    
+            for (let i = 1; i <= 15; i++) {
+                document.write('<tr>')
+                for (let n = 1; n <= 15; n++) {
+                    r = i*16
+                    g = n*16
+                    b = 218
+                    document.write(`<td style="background-color: rgb(${r},${g},${b})" title="${r},${g},${b}" > &nbsp&nbsp&nbsp&nbsp </td>`)
+                }
+                document.write('</tr>')
+            }
+
+            </script>
+
+    </table>
+    
+</body>
+</html>

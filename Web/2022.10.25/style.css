@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://infojegyzet.hu/webszerkesztes/html/motyoka/img/body.jpg);
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+header{
+    background-image: url(https://infojegyzet.hu/webszerkesztes/html/motyoka/img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    text-align: center;
+    color: #484848;
+}
+
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+table tr td{
+    padding: 10px;
+}
+
+.bal{
+    background-color: #E8E8E8;
+    background-image: url(https://infojegyzet.hu/webszerkesztes/html/motyoka/img/menualja.jpg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    color: #800000;
+    width: 30%;
+    vertical-align: text-top;
+}
+
+.kicsi{
+    position: absolute;
+    top:auto;
+    left: 220px;
+}
+
+.jobb{
+    background-color: #fff;
+    background-image: url(https://infojegyzet.hu/webszerkesztes/html/motyoka/img/content.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    color: #484848;
+    width: 70%;
+    text-align: justify;
+}
+
+.kicsi{
+    font-size: 10pt;
+}
