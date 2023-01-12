@@ -1,0 +1,7 @@
+Z:\11.C\Asztali\tesztverseny\bin\Debug\tesztverseny.exe.config
+Z:\11.C\Asztali\tesztverseny\bin\Debug\tesztverseny.exe
+Z:\11.C\Asztali\tesztverseny\bin\Debug\tesztverseny.pdb
+Z:\11.C\Asztali\tesztverseny\obj\Debug\tesztverseny.csproj.AssemblyReference.cache
+Z:\11.C\Asztali\tesztverseny\obj\Debug\tesztverseny.csproj.CoreCompileInputs.cache
+Z:\11.C\Asztali\tesztverseny\obj\Debug\tesztverseny.exe
+Z:\11.C\Asztali\tesztverseny\obj\Debug\tesztverseny.pdb
