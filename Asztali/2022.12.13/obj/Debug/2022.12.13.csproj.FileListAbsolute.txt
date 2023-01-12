@@ -1,0 +1,7 @@
+Z:\11.C\Asztali\2022.12.13\bin\Debug\2022.12.13.exe.config
+Z:\11.C\Asztali\2022.12.13\bin\Debug\2022.12.13.exe
+Z:\11.C\Asztali\2022.12.13\bin\Debug\2022.12.13.pdb
+Z:\11.C\Asztali\2022.12.13\obj\Debug\2022.12.13.csproj.AssemblyReference.cache
+Z:\11.C\Asztali\2022.12.13\obj\Debug\2022.12.13.csproj.CoreCompileInputs.cache
+Z:\11.C\Asztali\2022.12.13\obj\Debug\2022.12.13.exe
+Z:\11.C\Asztali\2022.12.13\obj\Debug\2022.12.13.pdb
